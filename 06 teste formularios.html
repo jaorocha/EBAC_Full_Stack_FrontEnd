@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>HTML - João Rocha - Formulário </title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+			
+		<!-- RESET -->
+		<link rel="stylesheet" type="text/css" href="./css/reset.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/style_form.css">
+		
+		
+	</head>
+	<body>
+
+		<header>
+			<img src="logo_ebac.png" alt="Logo EBAC">	
+			<h1>Curso Front-end</h1>
+			<h5>Aprenda do Zero ao Pro de modo prático</h5>
+		</header>
+
+		<section>
+
+			<nav>
+				<ul>
+					<li><a href="05-layouts.html">Home</a></li>
+					<li><a href="#sobre">Sobre</a></li>
+					<li><a href="#contato">Contato</a></li>
+					<li><a href="homepage.html">Home - João Rocha</a></li>
+				</ul>
+			</nav>
+
+			<article>
+
+				<h1>Contato</h1>
+
+				<form method="post">
+						<div class="container">
+
+							<p>Preencha os campos abaixo!</p> <br>
+
+								<div class="row">
+									<div class="col-25">
+									<label for="fname">Nome</label>
+								</div>
+								<div class="col-75">
+									<input type="text" id="fname" name="Digite seu" placeholder="Digite seu nome..">
+							    </div>
+
+								<div class="row">
+									<div class="col-25">
+									<label for="lname">Email</label>
+								</div>
+								<div class="col-75">
+									<input type="text" id="lname" name="lastname" placeholder="Digite seu email..">
+								</div>
+
+								<div class="row">
+									<div class="col-25">
+									<label for="subject">Messagem</label>
+								</div>
+								<div class="col-75">
+									<textarea id="subject" name="subject" placeholder="Digite aqui sua mensagem..." style="height:200px"></textarea>
+								</div>
+										
+								<div>
+									<label>Qual linguagem você prefere?</label> <br>
+									<input type="radio" name="linguagens" value="html"> HTML
+									<input type="radio" name="linguagens" value="css"> CSS
+									<input type="radio" name="linguagens" value="javascript"> JavaScript
+								</div>
+								<div>
+									<label>Quais linguagens você sabe?</label><br>
+									<input type="checkbox" name="linguagens" value="html"> HTML
+									<input type="checkbox" name="linguagens" value="css"> CSS
+									<input type="checkbox" name="linguagens" value="javascript"> JavaScript
+								</div>
+								
+								<div class="row">
+									<div class="col-25">
+						  			<label for="country">Qual sua Cor Favorita? </label>
+								</div>
+						
+								<div class="col-75">
+						  			<select id="country" name="country">
+										<option value="Azul">Azul</option>
+										<option value="Verde">Verde</option>
+										<option value="Vermelho" selected>Vermelho</option>
+						  			</select>
+								</div>
+
+								<div>
+									<input type="submit" >
+								</div>
+
+					  </div>
+				</form>		
+			</article>
+		</section>
+
+		<footer>
+			<p>\\\\\-------Desenvolvido por João Rocha-------/////</p>
+		</footer>
+		
+	</body>
+</html>
