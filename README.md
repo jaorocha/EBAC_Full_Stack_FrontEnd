@@ -1,1 +1,1 @@
-Projeto 1 mês do curso - Desenvolvedor Full Stack Python - EBAC 
+Projeto 2 mês do curso - Desenvolvedor Full Stack Python - EBAC 
