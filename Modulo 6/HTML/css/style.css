@@ -1,0 +1,108 @@
+
+/* arquivos css Geral com estilos dos elementos de todas as paginas */
+* {
+    box-sizing: border-box;
+  }
+
+  html {
+    margin: 0;
+    padding: 0;
+    
+  }
+  body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f1f1f1;
+  }
+  header {
+    background-color: mediumseagreen;
+    padding: 10px;
+    text-align: center;
+    font-size:25px;
+    color: black;
+    text-shadow:2px 1px 1px #111
+    
+  }
+  nav {
+    float: left;
+    width: 30%;
+    padding: 10px;
+
+    
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav li {
+    border-bottom: 1px solid rgb(18, 18, 36) ;
+    margin-right: 120px;
+
+  }
+  
+  article {
+    float: left;
+    padding: 20px;
+    width: 70%;
+    background: rgb(192, 241, 194);
+        
+  }
+
+  label {
+    font-size: 12px;
+    
+    
+  }
+  section::after {
+    background: #ccc;
+    content: "";
+    display: table;
+    clear: both;
+
+  }
+
+  footer {
+    background-color: mediumseagreen;
+    padding: 20px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 12px;
+    height: 50px
+  }	
+
+  @media (max-width: 600px) {
+    
+    nav, article {
+      width: 100%;
+      height: auto;''
+    }
+  }
+  p, h2, button {
+      margin: 0;
+  }
+  h1 {
+  margin-bottom: 3px;
+  }
+  a {
+    color: rgb(24, 53, 18);
+    text-decoration: none;
+    font-size:14px;
+}
+
+  #Tamanho a {
+    color: red;
+
+  }
+
+  form div {
+  margin-bottom: 10px;
+  font-size: 0.8 rem;
+  border-bottom: 1px solid rgb(18, 18, 36) ;
+
+  }
+
+[type="text"], [type="email"], textarea {
+  width: 100%;
+  
+}

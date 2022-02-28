@@ -1,0 +1,166 @@
+/* Importando CSS de Tabelas */
+@import url('tabelas.css');
+
+
+/* 
+
+	Herança
+
+	1. Sobreposição / Sobrescreve
+	2. Aplica a último estilo definido
+	3. Prioriza estilo específicas (com seletores mais próximos)
+	4. Se aplica a todas as propriedades
+
+ */
+
+
+html {
+	font-family: sans-serif;
+	color: #333333;
+}
+
+p {
+	color: #454545;
+}
+
+header p {
+	color: #fff;
+	font-size: 1.5rem;
+}
+header div {
+	padding-top: 15px;
+}
+
+/* 
+
+	Combinadores 
+	
+	(espaço) seletor descendente 
+	(>) combinador de seletores filhos
+	(+) combinador de elementos irmãos adjacentes / que vem logo na sequencia
+	(~) combinador de elementos irmãos geral / após elemento de referência
+
+	
+*/
+
+
+
+header > h2 {
+	font-weight: 600;
+}
+
+
+h2 ~ h5 {
+	font-size: 1.2rem;
+}
+
+header p {
+	text-transform: uppercase;
+}
+h5 + p {
+padding-top: 15px;
+
+}
+
+
+/* Pseudo-classes */
+
+a {
+	color: #555555;
+	text-decoration: none; /* o padrão é underline */
+	font-size: 1.5rem;
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+
+/* 
+	Tipografia
+*/
+
+html {
+	font-family: sans-serif;
+}
+
+
+}
+
+p {
+	font-weight: normal;
+	font-size: 1.4rem;
+}
+
+ul {
+	padding-left: .5rem;
+
+}
+
+li {
+	letter-spacing: 0.01rem;
+	font-family: sans-serif;
+	line-height: 1.5;
+}
+
+h3 {
+	/* declaração resumida / completa */
+	font: italic bold 1.2rem/2 sans-serif;
+	font-size: 1.5rem;
+	text-shadow: 1px 1px 1px rgb(129, 127, 127);
+
+ }
+
+article h3 {
+	/* declaração resumida / completa */
+	font: italic bold 1.2rem/2 sans-serif;
+	font-size: 1.5rem;
+	text-shadow: 1px 1px 1px rgb(129, 127, 127);
+	text-align:  center;
+	padding-bottom: 5px;
+
+ }
+
+
+/* 
+
+	Cores
+
+*/
+
+body {
+	background: #f1f1f1;
+	font-family: 'Courier New', Courier, monospace;
+}
+section {
+	background: rgba(255, 255, 255, 0.95);
+}
+
+p {
+	color: blue;
+	color: #034589;
+}
+
+header,
+footer {
+    background-color: mediumseagreen;
+
+}
+
+footer p {
+	color: rgb(255, 255, 255);
+}
+
+.navegacao {
+	background-color: #c3f7bf;
+	padding: 0.5rem;
+}
+
+.navegacao li a {
+	color: black
+	font-size: 1.4rem;
+}
+
+.navegacao li a:hover {
+	background-color: rgba(150, 150, 200, .5);
+	color: black
+}
