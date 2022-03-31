@@ -1,0 +1,28 @@
+INICIO:
+
+entra no barco
+
+Coloca CABRA no barco
+atravessa p/ lado norte do rio
+coloca CABRA na margem norte do rio
+
+atravessa p/ lado sul do rio
+coloca MAÇO DE ALFAFA no barco
+
+atravessa p/ lado norte do rio
+coloca MAÇO DE ALFAFA na margem norte do rio
+Coloca CABRA no barco
+
+atravessa p/ lado sul do rio
+coloca CABRA na margem sul do rio
+Coloca LOBO no barco
+
+atravessa p/ lado norte do rio
+coloca LOBO margem norte do rio
+
+atravessa p/ lado sul do rio
+Coloca CABRA no barco
+atravessa p/ lado norte do rio
+sai do barco
+
+fim:
